@@ -59,7 +59,6 @@ header ul li a{
     font-weight: 600;
     text-transform: uppercase;
     transition: 0.2s;
-    
 }
 header ul li a:hover{
     font-size: 16.5px;
@@ -141,11 +140,9 @@ header .fon:hover{
 }
 .content .textb a:hover{
     padding: 14px 16px;
-
 }
 .content .textb span{
     padding-left: 7px;
-    
 }
 .content .textb a i{
     background: #111;
@@ -267,4 +264,169 @@ header .fon:hover{
     height: 40px;
     border-radius: 70% 29% ;
     opacity: 0.6;
+}
+@media (max-width :768px) {
+    html{
+        min-height: 100vh;
+    }
+    section{
+        padding: 30px;
+        min-height: 100vh;
+    }
+    header{
+        padding: 20px 30px;
+    }
+    .back{
+        top: 190px;
+        left:230px;
+        width:20%;
+        height: 15%;
+        border-radius: 70% 29% ;
+    }
+    .back2{
+            top: 160px;
+            left:130px;
+            width:40%;
+            height: 30%;
+            border-radius: 70% 29% ;
+    }
+    .imgb{
+        width: 100px;
+        position: absolute;
+        top: 100px;
+        left: -110px;
+    }
+    .imgb img{
+        max-height: 300px;
+        object-fit:cover;
+        z-index: 9;
+    }
+    .content .textb{
+        max-width: 300px;
+        margin-left: 40%;
+    }
+    .content .textb h2{
+        font-size: 100px;
+        top:-80px;
+        left:-40px;
+    }
+    .content .textb .pp{
+        padding-top: 40px;
+        padding-left: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    .content .textb .pp p{
+        font-size: 13px;
+    }
+    .content .textb a{
+        margin-left: 0;
+    }
+}
+@media (max-width :360px){
+    header{
+        width: 100%;
+        padding: 20px 30px;
+    }
+    header ul li a{
+        margin: 0 4px;
+    }
+    header .fon{
+        display: none;
+    }
+    .content{
+        min-height: 100vh;
+    }
+    .content .textb .pp{
+        padding-top: 0px;
+        padding-left: 0;
+        font-family: 'poppins',sans-serif;
+    }
+    .content .textb .pp .stars{
+        padding-bottom: 10px;
+    }
+    .imgb{
+        width: 60px;
+        top:130px;
+        left: -150px;
+    }
+    .imgb img{
+        max-height: 200px;
+    }
+    .content .textb{
+        max-width: 400px;
+        min-height: 250px;
+        margin-left: 40%;
+        position: relative;
+    }
+    .content .textb h2{
+        font-size: 70px;
+        top:-100px;
+        left:-16px;
+    }
+    .content .textb a{
+        position: absolute;
+        bottom: 0;
+        margin-left: 70px;
+    }
+    .iconn{
+        bottom: 200px;
+        left: 30px;
+    }
+    .iconn i{
+        font-size: 40px;
+        color: rgb(255, 49, 135);
+    }
+    .iconn span{
+        padding-bottom: 30px;
+    }
+    .folow{
+        bottom: 195px;
+        left: 80px;
+    }
+    .folow h4{
+        font-size: 18px;
+    }
+    .folow p{
+        font-size: 12px;
+    }
+    .imgs{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 30px;
+    right:35px;
+    width: 300px;
+    height: 110px;
+    padding:0 20px;
+}
+.imgs .imgs1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.imgs .imgs1 img{
+    width: 50px;
+    z-index: 9;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.imgs .imgs1 img:hover{
+    transform: translateY(-15px);
+}
+.imgs .imgs1 .bac1{
+        position: absolute;
+        bottom: 10px;
+        left:8px;
+        background-color:#ffbc2bda ;
+        width:100px;
+        height: 40px;
+        border-radius: 70% 29% ;
+        opacity: 0.6;
+}
 }
