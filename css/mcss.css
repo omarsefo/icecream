@@ -97,6 +97,7 @@ header .fon:hover{
 .content .textb{
     position: relative;
     max-width: 600px;
+    z-index: 99;
 }
 .content .textb h2{
     position: absolute;
@@ -278,16 +279,16 @@ header .fon:hover{
     }
     .back{
         top: 190px;
-        left:230px;
-        width:20%;
-        height: 15%;
+        left:30px;
+        width:80%;
+        height: 25%;
         border-radius: 70% 29% ;
     }
     .back2{
-            top: 160px;
-            left:130px;
-            width:40%;
-            height: 30%;
+        top: 165px;
+        left:0px;
+        width:100%;
+        height: 35%;
             border-radius: 70% 29% ;
     }
     .imgb{
@@ -304,11 +305,13 @@ header .fon:hover{
     .content .textb{
         max-width: 300px;
         margin-left: 40%;
+        z-index: 99;
     }
     .content .textb h2{
         font-size: 100px;
         top:-80px;
         left:-40px;
+        z-index: 99;
     }
     .content .textb .pp{
         padding-top: 40px;
@@ -366,7 +369,7 @@ header .fon:hover{
     .content .textb a{
         position: absolute;
         bottom: 0;
-        margin-left: 70px;
+        margin-left: 68px;
     }
     .iconn{
         bottom: 200px;
