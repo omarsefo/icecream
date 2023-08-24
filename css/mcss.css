@@ -79,13 +79,15 @@ header .fon:hover{
     align-items: center;
     justify-content: center;
     margin-left: 200px;
-    width: 370px;
+    width: 400px;
     margin-bottom: 100px;
 }
 .imgb img{
-    max-height: 450px;
+    height: 500px;
     object-fit:cover;
+    filter: drop-shadow(1px 1px 4px #3131315e);
     z-index: 9;
+    -webkit-filter: drop-shadow(1px 1px 4px #3131315e);
 }
 .content{
     position: relative;
@@ -103,25 +105,25 @@ header .fon:hover{
     position: absolute;
     top:-130px;
     left: 4px;
-    font-size: 180px;
+    font-size: 150px;
     font-family: 'Rochester', cursive;
     font-weight: 600;
-    color:#ffbc2bda ;
+    color:#111 ;
 }
 .content .textb .pp{
-    padding-top: 100px;
-    padding-left: 100px;
+    padding-top: 60px;
+    padding-left: 80px;
     font-family: 'poppins',sans-serif;
 }
 .ve{
-    color: #444;
+    color: #44444496;
 }
 .content .textb .pp .stars{
     padding-bottom: 20px;
 }
 .content .textb .pp p{
     color: #222;
-    font-size: 16px;
+    font-size: 11px;
 }
 .content .textb .pp span{
     font-size: 22px;
@@ -129,7 +131,8 @@ header .fon:hover{
 }
 .content .textb a{
     margin-left: 230px;
-    background:#ffbc2bda ;
+    background:#a286ea ;
+    filter: drop-shadow(2px 15px 10px #807e856e);
     text-decoration: none;
     color: #fff;
     padding: 13px 15px;
@@ -138,9 +141,7 @@ header .fon:hover{
     letter-spacing: 1px;
     transition: 0.3s;
     font-family: 'poppins',sans-serif;
-}
-.content .textb a:hover{
-    padding: 14px 16px;
+    -webkit-filter: drop-shadow(2px 15px 10px #807e856e);
 }
 .content .textb span{
     padding-left: 7px;
@@ -148,6 +149,7 @@ header .fon:hover{
 .content .textb a i{
     background: #111;
     padding: 5px;
+    font-size: 13px;
     border-radius: 50%;
     margin-left: 14px;
 }
@@ -179,21 +181,21 @@ header .fon:hover{
 }
 .back{
     position: absolute;
-    top: 190px;
+    top: 230px;
     left:290px;
-    background-color: #ffbc2bda;
-    width:900px;
-    height: 300px;
-    border-radius: 70% 29% ;
+    background-color: #dfd3ff;
+    width:880px;
+    height: 250px;
+    border-radius: 75% 20% ;
     opacity: 0.5;
 }
 .back2{
         position: absolute;
-        top: 160px;
+        top: 220px;
         left:180px;
-        background-color: #ffbc2bda;
-        width:1150px;
-        height: 400px;
+        background-color: #e2cdfd;
+        width:1100px;
+        height: 290px;
         border-radius: 70% 29% ;
         opacity: 0.3;
 }
@@ -208,11 +210,18 @@ header .fon:hover{
     height: 110px;
     padding:0 20px;
 }
-.imgs .imgs1{
+.imgs .price{
+margin-bottom: 10px;
+font-family: 'poppins',sans-serif;
+font-weight: 600;
+font-size: 13px;
+}
+.imgs .imgs1,
+.imgs .imgs2{
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     width: 110px;
     height: 110px;
     cursor: pointer;
@@ -227,25 +236,17 @@ header .fon:hover{
 .imgs .imgs1 img:hover{
     transform: translateY(-15px);
 }
-.imgs .imgs1 .bac1{
+.imgs .imgs1 .bac1,
+.imgs .imgs2 .bac2{
         position: absolute;
-        bottom: 10px;
+        bottom: -2px;
         left:8px;
-        background-color:#ffbc2bda ;
-        width:100px;
+        background-color:#a286ea ;
+        width:115px;
         height: 40px;
-        border-radius: 70% 29% ;
+        border-radius: 70% 20%;
         opacity: 0.6;
-}
-.imgs .imgs2{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 110px;
-    height: 110px;
-    cursor: pointer;
-    transition: 0.5s;
+
 }
 .imgs .imgs2 img:hover{
     transform: translateY(-15px);
@@ -257,14 +258,7 @@ header .fon:hover{
     transition: 0.5s;
 }
 .imgs .imgs2 .bac2{
-    position: absolute;
-    bottom: 10px;
-    left:8px;
     background-color: #2b0000da;
-    width:100px;
-    height: 40px;
-    border-radius: 70% 29% ;
-    opacity: 0.6;
 }
 @media (max-width :768px) {
     html{
@@ -426,7 +420,7 @@ header .fon:hover{
         position: absolute;
         bottom: 10px;
         left:8px;
-        background-color:#ffbc2bda ;
+        background-color:#a286ea ;
         width:100px;
         height: 40px;
         border-radius: 70% 29% ;
